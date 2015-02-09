@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<!-- Full scripts index -->
+		<!-- Scripts must be listed in the correct order -->
+		<script src="scripts/system.js"></script> 
+		<script>
+			System.config(
+			{
+				baseURL: '../scripts/',
+				paths: {
+					'Greets/Messenger': '../scripts/Greets/ConsoleMessenger.js'
+				}
+			});
+			window.require = System.amdRequire;
+		</script>
+	</head>
+	<body>
+		<script>
+			System.amdRequire(["Main"], function(greeting)
+			{
+				greeting.greet();
+			});
+		</script>
+	</body>
+</html>
