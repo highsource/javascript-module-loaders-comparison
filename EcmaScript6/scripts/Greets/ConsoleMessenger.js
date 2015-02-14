@@ -5,5 +5,3 @@ Greets.ConsoleMessenger.prototype.sendMessage = function(message)
 {
 	console.log(message);
 };
-var ConsoleMessenger = Greets.ConsoleMessenger;
-export { ConsoleMessenger };

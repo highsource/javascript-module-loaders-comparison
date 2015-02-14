@@ -1,5 +1,5 @@
 import { Greets } from "Greets";
-import { Recipient } from "Greets/Recipient";
+import "Greets/Recipient";
 
 // Requires Greets
 Greets.Greeting = function(message, title, messenger)
@@ -17,7 +17,3 @@ Greets.Greeting.prototype.greet = function()
 {
 	this.messenger.sendMessage(this.getGreeting());
 };
-
-var Greeting = Greets.Greeting;
-
-export { Greeting };

@@ -1,6 +1,6 @@
 import { Greets } from "Greets";
-import { Greeting } from "Greets/Greeting";
-import { ConsoleMessenger } from "Greets/ConsoleMessenger";
+import "Greets/Greeting";
+import "Greets/ConsoleMessenger";
 
 // Requires Greets.Greeting
 var greeting = new Greets.Greeting("Hello", "World", new Greets.ConsoleMessenger());

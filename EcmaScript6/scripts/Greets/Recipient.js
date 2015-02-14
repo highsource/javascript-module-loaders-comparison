@@ -8,5 +8,3 @@ Greets.Recipient.prototype.getTitle = function ()
 {
 	return this.title;
 };
-var Recipient = Greets.Recipient;
-export { Recipient };
