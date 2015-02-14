@@ -2,13 +2,15 @@
 	<head>
 		<!-- Full scripts index -->
 		<!-- Scripts must be listed in the correct order -->
-		<script type="text/javascript" src="scripts/Greets.js"></script> 
-		<script type="text/javascript" src="scripts/Greets/Recipient.js"></script> 
-		<script type="text/javascript" src="scripts/Greets/Greeting.js"></script> 
-		<script type="text/javascript" src="scripts/Greets/ConsoleMessenger.js"></script> 
-		<script type="text/javascript" src="scripts/Main.js"></script> 
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script> 
+		<script src="scripts/Greets.js"></script> 
+		<script src="scripts/Greets/Recipient.js"></script> 
+		<script src="scripts/Greets/Greeting.js"></script> 
+		<script src="scripts/Greets/MsgDivMessenger.js"></script> 
+		<script src="scripts/Main.js"></script> 
 	</head>
 	<body>
+		<div id="msg"/>
 		<script type="text/javascript">
 			greeting.greet();
 		</script>

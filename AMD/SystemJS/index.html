@@ -6,12 +6,13 @@
 			{
 				baseURL: '../scripts/',
 				paths: {
-					'Greets/Messenger': '../scripts/Greets/ConsoleMessenger.js'
+					'JQuery': "https://code.jquery.com/jquery-2.1.3.min.js"
 				}
 			});
 		</script>
 	</head>
 	<body>
+		<div id="msg"/>
 		<script>
 			System.amdRequire(["Main"], function(greeting)
 			{
