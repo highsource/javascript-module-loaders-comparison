@@ -1,0 +1,2 @@
+var Greets = {};
+export { Greets }
