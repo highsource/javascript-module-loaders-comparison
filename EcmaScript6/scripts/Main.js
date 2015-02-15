@@ -6,3 +6,4 @@ import "Greets/ConsoleMessenger";
 var greeting = new Greets.Greeting("Hello", "World", new Greets.ConsoleMessenger());
 
 export default greeting;
+export var __useDefault = true;
