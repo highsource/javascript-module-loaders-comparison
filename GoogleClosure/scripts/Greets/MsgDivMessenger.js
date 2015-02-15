@@ -1,5 +1,4 @@
 goog.require("Greets");
-//goog.require("$");
 goog.provide("Greets.MsgDivMessenger");
 
 Greets.MsgDivMessenger = function() {};
