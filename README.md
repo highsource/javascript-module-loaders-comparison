@@ -10,3 +10,4 @@ This project intends to provide simple but practical demos for different JavaScr
 * [AMD with RequireJS](https://rawgit.com/highsource/javascript-module-loaders-comparison/master/AMD/SystemJS/index.html)
 * [CommonJS with SystemJS](https://rawgit.com/highsource/javascript-module-loaders-comparison/master/AMD/SystemJS/index.html)
 * [EcmaScript6 with SystemJS](https://rawgit.com/highsource/javascript-module-loaders-comparison/master/EcmaScript6/SystemJS/index.html)
+* [Google Closure - Simple version](https://rawgit.com/highsource/javascript-module-loaders-comparison/master/GoogleClosure/Simple/index.html)
